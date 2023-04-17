@@ -4,7 +4,7 @@ import contrato from '../contracts/produtos.contract'
 describe('Testes da Funcionalidade Produtos', () => {
     let token
     before(() => {
-        cy.token('fulano@qa.com', 'teste').then(tkn => { token = tkn })
+        cy.token('fulano@qa.com.br', 'teste').then(tkn => { token = tkn })
     });
 
     it('Deve validar contrato de produtos', () => {
